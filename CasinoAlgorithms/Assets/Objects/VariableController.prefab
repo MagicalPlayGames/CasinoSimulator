@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3223454345190491346
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3223454345190491348}
+  - component: {fileID: 3223454345190491347}
+  - component: {fileID: 3223454345190491349}
+  m_Layer: 0
+  m_Name: VariableController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3223454345190491348
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3223454345190491346}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 16.2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3223454345190491347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3223454345190491346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b3596fd7ff4bb74c92c9ee59082dfca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  algo1: {fileID: 0}
+  algo4: {fileID: 0}
+  spinScripts:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  cardValues:
+    cardProbablities: 140000000a000000050000002800000018000000
+    cardScores: 0300000006000000050000000100000002000000
+  winValues:
+    winProbablities: 140000000a0000000a0000000a000000140000000a0000000a0000000a000000
+    winScores: 0500000005000000050000000a0000000a0000000a0000001400000014000000
+  hotStreak: 20
+  coldStreak: 40
+  loseProb: 20
+  startSpinSpeed: 400
+  numberOfSpins: 1
+--- !u!114 &3223454345190491349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3223454345190491346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b7533658dae66146bc2b8023444aca7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  algorithmSelect: 4
+  selected: 0
+  algo1: {fileID: 0}
+  algo2: {fileID: 0}
+  algo3: {fileID: 0}
+  algo4: {fileID: 0}
+  colorScript: {fileID: 0}
+  toggles:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
